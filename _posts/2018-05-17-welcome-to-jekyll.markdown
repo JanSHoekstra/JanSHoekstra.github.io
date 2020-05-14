@@ -10,5 +10,6 @@ subtitle: 'Welcome!'
 Welcome to my page!
 Currently this page doesn't hold much content and is it mostly a hub for subpages.
 The following subpages can be visited:
+
 [Robotica Promotie (Dutch)]: https://janshoekstra.github.io/RoboticaPromotie/
 [The Magikarp Book of Records]:   https://janshoekstra.github.io/The-Magikarp-Book-of-Records/
