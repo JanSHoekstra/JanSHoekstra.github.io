@@ -1,13 +1,13 @@
 # Site settings
-title: 'Robotica'
-description: 'Promotiewebsite Robotica van de KaasKnabbelaars'
-keywords: 'robotics, software, development'
+title: 'Jan S. Hoekstra'
+description: 'Personal page of Jan Hoekstra'
+keywords: 'software, development'
 url: 'https://janshoekstra.github.io' # your host
-baseurl: "/RoboticaPromotie"
+baseurl: ""
 
 # nav
 nav: 
-  Home: '/RoboticaPromotie'
+  Home: ''
   Tags: 'tags.html'
   Tijdlijn: 'timeline.html'
   Over: 'about.html'
@@ -15,9 +15,9 @@ nav:
 
 # 博主
 author: true
-name: 'KaasKnabbelaars'
-NickName: 'Robotica team 7'
-webtitle: 'UwU bot!'
+name: 'Jan S. Hoekstra'
+NickName: 'Altlock'
+webtitle: 'Jan S. Hoekstra'
 bio: ''
 about: true
 aboutyou: ''
