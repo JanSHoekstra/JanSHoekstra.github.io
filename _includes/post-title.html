@@ -12,7 +12,7 @@
   <!-- 页面宽度大于800px -->
   <div class="left-area">
     {% if page.next.url %}
-      <a href="{{ page.next.url | prepend: site.baseurl }}" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='#9A85FF';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
+      <a href="{{ page.next.url | prepend: "/" | prepend: site.baseurl }}" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='#9A85FF';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
       <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:#9A85FF;"><span class="main">{{ page.next.title }}</span></span></div>
     {% else %}
       <a href="javascript:;" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='#9A85FF';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
