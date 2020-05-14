@@ -7,11 +7,11 @@ baseurl: "/RoboticaPromotie"
 
 # nav
 nav: 
-  首页: '/RoboticaPromotie'
-  标签: 'tags.html'
-  时间线: 'timeline.html'
-  关于博主: 'about.html'
-  友情链接: 'friendLink.html'
+  Home: '/RoboticaPromotie'
+  Tags: 'tags.html'
+  Tijdlijn: 'timeline.html'
+  Over: 'about.html'
+  Links: 'friendLink.html'
 
 # 博主
 author: false
