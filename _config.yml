@@ -18,9 +18,9 @@ author: true
 name: 'KaasKnabbelaars'
 NickName: 'Robotica team 7'
 webtitle: 'UwU bot!'
-bio: 'your awesome bio'
+bio: ''
 about: true
-aboutyou: 'your introduction'
+aboutyou: ''
 portraits: 'assets/profile.jpeg' # your portraits image file path
 
 # SNS
