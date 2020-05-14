@@ -38,14 +38,14 @@
   <!-- 页面宽度小于800px -->
   <div class="post-changearea">
     {% if page.next.url %}
-      <a href="{{ page.next.url | prepend: site.baseurl }}" class="leftchange" style="border-right: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span>上一篇<br><br>{{ page.next.title }}</span></a>
+      <a href="{{ page.next.url | prepend: site.baseurl }}" class="leftchange" style="border-right: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span>Einde!<br><br>{{ page.next.title }}</span></a>
     {% else %}
-      <a href="javascript:;" class="leftchange" style="border-right: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span><br>没有上一篇咯</span></a>
+      <a href="javascript:;" class="leftchange" style="border-right: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span><br>Einde!</span></a>
     {% endif %}
     {% if page.previous.url %}
-      <a href="{{ page.previous.url | prepend: site.baseurl }}" class="rightchange" style="border-left: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span>下一篇<br><br>{{ page.previous.title }}</span></a>
+      <a href="{{ page.previous.url | prepend: site.baseurl }}" class="rightchange" style="border-left: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span>Einde!<br><br>{{ page.previous.title }}</span></a>
     {% else %}
-      <a href="javascript:;" class="rightchange" style="border-left: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span><br>没有下一篇咯</span></a>
+      <a href="javascript:;" class="rightchange" style="border-left: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span><br>Einde!</span></a>
     {% endif %}
   </div>
 </div>
@@ -58,7 +58,7 @@
       <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:{{ page.color }};"><span class="main">{{ page.next.title }}</span></span></div>
     {% else %}
       <a href="javascript:;" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='{{ page.color }}';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
-      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:{{ page.color }};"><span class="main">没有上一页咯</span></span></div>
+      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:{{ page.color }};"><span class="main">Einde!</span></span></div>
     {% endif %}
   </div>
   <div class="post-titlearea">
