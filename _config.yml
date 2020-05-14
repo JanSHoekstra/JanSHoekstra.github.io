@@ -14,7 +14,7 @@ nav:
   Links: 'friendLink.html'
 
 # 博主
-author: false
+author: true
 name: 'your awesome name'
 NickName: 'your awesome nickname'
 webtitle: 'UwU bot!'
